@@ -1,0 +1,5 @@
+Flask>=1.0.0
+google-cloud-datastore==1.7.1
+requests
+flask_oauth
+oauth2client==4.1.2

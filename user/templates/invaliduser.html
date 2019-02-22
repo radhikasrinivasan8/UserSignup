@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <title>Welcome</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    </head>
+    <body>
+    <div class="navbar navbar-default">
+        <div class="container">
+        <div class="navbar-header">
+            <div class="navbar-brand">UserApp</div>
+        </div>
+        
+       
+        </div>
+    </div>
+    <div class="container">
+        {% block content %}{% endblock %}
+    </div>
+        <div>
+                <div class="popup" onload="myFunction()">Click me!
+                        <span class="popuptext" id="myPopup">Popup text...</span>
+                        <script>
+                                // When the user clicks on <div>, open the popup
+                                function myFunction() {
+                                  var popup = document.getElementById("myPopup");
+                                  popup.classList.toggle("show");
+                                }
+                                </script>
+                      </div>
+        </div>
+    </body>
+</html>

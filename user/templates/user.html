@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<title>Modify User</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+<h3>Admin</h3>
+
+  
+  
+<div class="w3-bar w3-black">
+<a href="/user/{{users.id}}/edit" class="w3-bar-item w3-button w3-mobile">
+Edit User
+</a>
+<a href="/user/{{users.id}}/delete" class="w3-bar-item w3-button w3-mobile">
+Delete User
+</a>
+</div>
+<h4>
+<table class="w3-table w3-striped w3-border">
+<th>First Name</th>
+<th>Last Name</th>
+<th>Email</th>
+<th>Password</th>
+<tr>
+<td>{{users.fname}}</td>
+<td>{{users.lname}}</td>
+<td>{{users.email}}</td>
+<td>{{users.password}}</td>
+</tr>
+</table>
+</body>
+</html>
+
+      
+    
+  
+  
+  
