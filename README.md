@@ -1,11 +1,11 @@
 **UserApp**
 ==============================
 
-Python task – Google Cloud 
-a.	Create a login/signup page that support 
-b.	Enable reCaptcha for the signup page 
-c.	Store the information in a Google cloud datastore 
-d.	Create an administrator page to see/delete/reset password of users
+Python task in Google Cloud 
+a.	Create a login/signup page that support <br>
+b.	Enable reCaptcha for the signup page <br>
+c.	Store the information in a Google cloud datastore<br> 
+d.	Create an administrator page to see/delete/reset password of users<br>
 
 The files that implement the above tasks:
 
